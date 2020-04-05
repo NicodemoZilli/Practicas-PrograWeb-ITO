@@ -1,0 +1,150 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: fantasy;
+    background-color: #D0D3D4;
+}
+
+.header {
+    background-color:#212121 ;
+    font-size:15px;
+    color: #FDFEFE;
+    padding: 15px;
+    text-align: center;
+}
+
+.perfil{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.perfil img{
+    image-resolution: from-image;
+    position: relative;
+    width: 20%;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+}
+.menu ul {
+  position: absolute;
+  top: 150px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #48C9B0;
+    color: #000080;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+.aside {
+  position: absolute;
+  top: 150px;
+    background-color: #ffbf00;
+    padding: 15px;
+    color: #000080;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-bottom: 20px;
+}
+
+.aside img{
+  width: 20%;
+}
+#logo1{
+  width: 70%;
+}
+#logo2{
+  width: 50%;
+}
+.aside ul{
+  list-style-type: none;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.aside iframe{
+  width: 100%;
+  border: 0;
+}
+
+#mp3{
+  width: 100%;
+}
+.col-6 a{
+  text-decoration: none;
+}
+footer {
+    margin-top: 25px;
+    bottom: 0px;
+    background-color: #212121;
+    color: #FDFEFE;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .perfil img{
+      width:  50%;
+    }
+    footer{
+      font-size: 14px;
+    }
+    .menu ul {
+      position: relative;
+      top: 0px;
+    }
+    .aside {
+        position: relative;
+        top: 0px;
+    }
+    .aside img{
+      width: 15%;
+    }
+}

@@ -1,0 +1,39 @@
+
+
+body {
+  position: absolute;
+  background-color: #D0D3D4;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  color: #212121;
+}
+
+#hd {
+  position: absolute;
+  background-color: #212121;
+  text-align: center;
+  width: 100%;
+  font-size: 35px;
+  color: #FDFEFE;
+  height: 180px;
+}
+
+#mn {
+  position: relative;
+  top: 180px;
+  background-color: #48C9B0;
+  width: 100%;
+}
+
+.cont{
+  top: 200px;
+  position: relative;
+}
+
+footer{
+  background-color: #212121;
+  color: #FDFEFE;
+  font-size: 15;
+  bottom: auto;
+}

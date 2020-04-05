@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="pilares de la web">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+
+<!-- Esto es un comentario-->
+
+<BODY>
+
+
+<TABLE>
+<TR>
+   <TD>
+      <FORM METHOD="GET" ACTION="indice.htm">
+      <INPUT TYPE="SUBMIT" VALUE="Indice">
+      </FORM>
+   </TD>
+
+   <TD>
+      <FORM METHOD="GET" ACTION="notas.htm">
+      <INPUT TYPE="SUBMIT" VALUE="Notas">
+      </FORM>
+   </TD>
+
+   <TD>
+      <FORM METHOD="GET" ACTION="como.htm">
+      <INPUT TYPE="SUBMIT" VALUE="C&oacute;mo funciona?">
+      </FORM>
+   </TD>
+</TR>
+</TABLE>
+<BR><HR>
+
+<TABLE>
+<TR>
+ <TD>
+  <FORM METHOD="GET" ACTION="http://sestud.uv.es/manual.esp/indice.htm">
+  <INPUT TYPE="SUBMIT" VALUE="Indice">
+  </FORM>
+ </TD>
+
+ <TD>
+  <FORM METHOD="GET" ACTION="http://sestud.uv.es/manual.esp/notas.htm">
+  <INPUT TYPE="SUBMIT" VALUE="Notas">
+  </FORM>
+ </TD>
+
+ <TD>
+  <FORM METHOD="GET" ACTION="http://sestud.uv.es/manual.esp/como.htm">
+  <INPUT TYPE="SUBMIT" VALUE="C&oacute;mo funciona?">
+  </FORM>
+ </TD>
+</TR>
+</TABLE>
+<BR><HR>
+<FORM METHOD="POST" ACTION="http://miservidor/cgi-bin/test2-cgi">
+ <INPUT NAME="campo1">
+ <INPUT NAME="campo2" SIZE=10 MAXLENGTH=10>
+<P>
+ <INPUT TYPE="submit" VALUE="Procesar">
+ <INPUT TYPE="reset" VALUE="Inicializar"></FORM>
+
+<BR><HR>
+<form method="POST" action="http://miservidor/cgi-bin/test2-cgi">
+ <input name="campo1">
+ <input name="campo2" VALUE="TEXTO VISIBLE">
+ <input type="password" name="campo3" VALUE="TEXTO OCULTO">
+<P>
+ <input type="submit"<FORM METHOD="POST" ACTION="http://miservidor/cgi-bin/test2-cgi">
+ <INPUT NAME="campo1">
+ <INPUT NAME="campo2" SIZE=10 MAXLENGTH=10>
+<P>
+Clase A <INPUT TYPE="RADIO" NAME="clase" VALUE="A">
+Clase B <INPUT TYPE="RADIO" NAME="clase" VALUE="B">
+<P>
+ <INPUT TYPE="SUBMIT" VALUE="Procesar">
+ <INPUT TYPE="RESET" VALUE="Inicializar">
+
+</form>
+ value="Procesar">
+ <input type="reset" value="Inicializar"></form>
+
+<BR><HR>
+<FORM METHOD="POST" ACTION="http://miservidor/cgi-bin/test2-cgi">
+ <INPUT NAME="campo1">
+ <INPUT NAME="campo2" SIZE=10 MAXLENGTH=10>
+<P>
+Clase A <INPUT TYPE="RADIO" NAME="clase" VALUE="A">
+Clase B <INPUT TYPE="RADIO" NAME="clase" VALUE="B">
+<P>
+Tipo 1 <INPUT TYPE="CHECKBOX" NAME="tipo" VALUE="1">
+Tipo 2 <INPUT TYPE="CHECKBOX" NAME="tipo" VALUE="2">
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Procesar">
+<INPUT TYPE="RESET" VALUE="Inicializar">
+
+</form>
+
+<BR><HR>
+
+<FORM METHOD="POST" ACTION="http://miservidor/cgi-bin/test2-cgi">
+ <INPUT TYPE="SUBMIT" VALUE="Procesar">
+ <INPUT TYPE="RESET" VALUE="Inicializar"> <br><br>
+
+ <SELECT NAME="lista1" SIZE="2">
+  <OPTION>Valor 1
+  <OPTION>Valor 2
+  <OPTION>Valor 3
+</SELECT>
+</FORM>
+<BR><HR>
+<FORM METHOD="POST" ACTION="http://miservidor/cgi-bin/test2-cgi">
+
+ <SELECT NAME="lista1" SIZE=3>
+  <OPTION>Valor 1
+  <OPTION>Valor 2
+  <OPTION>Valor 3
+  <OPTION>Valor 4
+  <OPTION>Valor 5
+</SELECT>
+<P>
+ <INPUT TYPE="SUBMIT" VALUE="Procesar">
+ <INPUT TYPE="RESET" VALUE="Inicializar">
+</FORM>
+
+<BR><HR>
+<FORM METHOD="POST" ACTION="http://miservidor/cgi-bin/test2-cgi">
+<TEXTAREA NAME="texto1" ROWS=5 COLS=40 ></TEXTAREA>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Procesar">
+<INPUT TYPE="RESET" VALUE="Inicializar">
+</FORM>
+<BR><HR>
+
+<FORM ACTION="http://miserver.midominio.mipais/cgi-bin/test2-cgi" METHOD=POST>
+
+<CENTER>
+<TABLE BORDER>
+<TR>
+   <TD>Nombre:</TD>
+   <TD> <INPUT TYPE="text" NAME="nombre" SIZE=18 MAXLENGTH=18> F.Nac.:
+        <INPUT TYPE="text" NAME="edad" SIZE=8 MAXLENGTH=8> DNI:
+        <INPUT TYPE="text" NAME="dni" SIZE=8 MAXLENGTH=8></TD>
+
+<TR>
+   <TD>Apellidos:</TD>
+   <TD> <INPUT TYPE="text" NAME="apellidos" SIZE=48 MAXLENGTH=48></TD>
+
+<TR>
+   <TD>Calle y n&uacute;mero:</TD>
+   <TD> <INPUT TYPE="text" NAME="domicilio" SIZE=48 MAXLENGTH=48></TD>
+
+<TR>
+  <TD>C&oacute;digo Postal:</TD>
+  <TD> <INPUT TYPE="text" NAME="postal" SIZE=5 MAXLENGTH=5>Ciudad:
+       <INPUT TYPE="text" NAME="localidad" SIZE=36 MAXLENGTH=36></TD>
+
+<TR>
+   <TD>Provincia: </TD>
+   <TD> <INPUT TYPE="text" NAME="provincia" SIZE=20 MAXLENGTH=20>                Tel&eacute;fono:
+         <INPUT TYPE="text" NAME="telefono" SIZE=19 MAXLENGTH=19></TD>
+
+<TR>
+   <TD>Opci&oacute;n:</TD>
+   <TD> <SELECT NAME="OPCION">
+            <OPTION>OPCION 1
+            <OPTION>OPCION 2
+            <OPTION>OPCION 3
+            <OPTION>OPCION 4
+            <OPTION>OPCION 5
+
+        </SELECT>Escoja una opci&oacute;n</TD>
+<TR>
+   <TD>Comentarios<BR> personales:</TD>
+   <TD> <TEXTAREA NAME="coment" ROWS=2 COLS=48></TEXTAREA></TD>
+
+<TR>
+   <TD><B>Pulse aqu&iacute;:</B></TD>
+   <TD ALIGN=CENTER>
+       <INPUT TYPE="submit" VALUE="Enviar datos ">
+       <INPUT TYPE="reset" VALUE="Borrar los datos"></TD>
+
+</TABLE>
+</CENTER>
+</FORM>
+
+</BODY>
+</HTML>

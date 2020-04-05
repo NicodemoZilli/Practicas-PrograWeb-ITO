@@ -1,0 +1,9 @@
+#pic1, #pic2, #pic3{
+    border-radius: 20px;
+}
+
+.gal img {
+  border-radius: 10px;
+  width: 300px;
+  height: 170px;
+}
