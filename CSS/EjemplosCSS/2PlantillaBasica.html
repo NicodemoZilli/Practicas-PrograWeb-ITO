@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasicosn.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>Este es el título principal del sitio web</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="#">principal</a></li>
+    <li><a href="#">fotos</a></li>
+    <li><a href="#">videos</a></li>
+    <li><a href="#">contacto</a></li>
+    <l
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>Título del mensaje uno</h1>
+                  <h4>Subtítulo del mensaje uno</h4>
+              </hgroup>
+              <time datetime="2011-12-10" pubdate>
+                    publicado 10-12-2011
+              </time>
+        </header>
+          Este es el texto de mi primer mensaje
+          <figure>
+                <img id="imagen" src="img/buho.jpg">
+                <figcaption>
+                    Esta es la imagen del primer mensaje
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>comentarios (0)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Título del mensaje dos</h1>
+                <h4>Subtítulo del mensaje dos</h4>
+            </hgroup>
+            <time datetime="2011-12-15" pubdate>
+                publicado 15-12-2011
+            </time>
+         </header>
+         Este es el texto de mi segundo mensaje
+         <figure>
+               <img id="imagen2" src="img/buho2.jpg">
+               <figcaption>
+                   Esta es la imagen del primer mensaje
+               </figcaption>
+         </figure>
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+    <form method="GET" action="http://www.google.es/search" target="_blank" >
+      <fieldset id="cCampos">
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="hidden" name="oe" value="UTF-8" />
+
+        <input type="text" name="q" id="s" value="" size="11" />
+        <font size="-1">
+          <input type="submit" id="x" name="btnG" value="Buscar"/>
+        </font>
+
+      </fieldset>
+    </form>
+    <br>
+    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.718429971774!2d-97.10001148510219!3d18.8551834872149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502aeb2d35fed%3A0xba5f3840b0862949!2sTecNM%20-%20Campus%20Instituto%20Tecnol%C3%B3gico%20de%20Orizaba!5e0!3m2!1ses-419!2smx!4v1583346481994!5m2!1ses-419!2smx"
+     frameborder="0" allowfullscreen=""></iframe>
+
+    <br><br>
+      <blockquote>Mensaje número uno</blockquote>
+      <blockquote>Mensaje número dos</blockquote>
+      <a href="https://www.facebook.com/">
+       <figure>
+         <img src="img/facebook.jpg" alt="facebook" >
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/">
+        <figure>
+          <img src="img/instagram.jpg" alt="instagram">
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+</body>
+</html>
